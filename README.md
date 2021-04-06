@@ -4,6 +4,8 @@
 
 ## Features
 
+- JWT Token Authorization integrated.
+- Database -> MongoDb.
 - User's are integrated i.e we can register and login into our application.
 - Available Booking's are visible in a Timeline, we can book then and there with a single click.
 
