@@ -7,7 +7,7 @@ import Typography from '@material-ui/core/Typography';
 import {Grid, TextField} from "@material-ui/core";
 
 import axios from "axios";
-import {useState, useEffect} from "react";
+import {useState} from "react";
 import {Link, Redirect} from 'react-router-dom'
 
 const useStyles = makeStyles({
@@ -44,9 +44,10 @@ const Register = () => {
       <div className={'container'}>
         <div className={'row'}>
           <div className={'col-8 d-flex flex-column justify-content-center'}>
-            <img src={'https://opendoodles.s3-us-west-1.amazonaws.com/sprinting.gif'} width={'800em'}/>
+            <img alt={""} src={'https://opendoodles.s3-us-west-1.amazonaws.com/sprinting.gif'} width={'800em'}/>
           </div>
           <div className={'col-4'}>
+
 
             <Grid
               container
@@ -90,7 +91,8 @@ const Register = () => {
                                      })
                                    }}
                         />
-                        <Button className={'mb-5'} variant="contained" style={{color: '#585858', backgroundColor: '#a7ffff'}} type={'submit'}>
+                        <Button className={'mb-5'} variant="contained"
+                                style={{color: '#585858', backgroundColor: '#a7ffff'}} type={'submit'}>
                           Sign Up
                         </Button>
                         <Typography gutterBottom align={'center'}>

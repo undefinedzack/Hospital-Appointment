@@ -7,7 +7,7 @@ import Typography from '@material-ui/core/Typography';
 import {Grid, TextField} from "@material-ui/core";
 
 import axios from "axios";
-import {useState, useEffect} from "react";
+import {useState} from "react";
 import {Link, Redirect} from 'react-router-dom'
 
 const useStyles = makeStyles({
@@ -44,7 +44,7 @@ const Login = () => {
       <div className={'container'}>
         <div className={'row'}>
           <div className={'col-8 d-flex flex-column justify-content-center'}>
-            <img src={'https://opendoodles.s3-us-west-1.amazonaws.com/levitate.gif'} width={'800em'}/>
+            <img alt={""} src={'https://opendoodles.s3-us-west-1.amazonaws.com/levitate.gif'} width={'800em'}/>
           </div>
           <div className={'col-4'}>
             <Grid
